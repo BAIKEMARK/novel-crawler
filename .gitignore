@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# VSCode / PyCharm
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Data
+novels/
+checkpoints/
+.env
