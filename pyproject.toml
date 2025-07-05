@@ -1,0 +1,13 @@
+[project]
+name = "novel-crawler"
+version = "0.1.0"
+description = "AI驱动的小说抓取器，支持书源格式、断点续爬和自动结构分析"
+authors = [{name = "MarkBai", email = "zdl510510@126.com"}]
+requires-python = ">=3.8"
+
+dependencies = [
+    "beautifulsoup4>=4.12.2",
+    "cloudscraper>=1.2.71",
+    "openai>=1.6.0",
+    "python-dotenv>=1.0.0"
+]

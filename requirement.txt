@@ -1,0 +1,4 @@
+beautifulsoup4>=4.12.2
+cloudscraper>=1.2.71
+openai>=1.6.0
+python-dotenv>=1.0.0
