@@ -1499,7 +1499,7 @@
       "name": "//meta[@property='og:novel:book_name']/@content"
     },
     "ruleContent": {
-      "content": "id.content.0@textNodes##((请退出转码|八一中文|八壹中文).+|(网页版章节内容慢).+(\\n.+)+)"
+      "content": "#content@textNodes##((请退出转码|八一中文|八壹中文).+|(网页版章节内容慢).+(\\n.+)+)"
     },
     "ruleExplore": {},
     "ruleSearch": {
@@ -1566,12 +1566,12 @@
     "enabled": true,
     "bookSourceType": 0,
     "ruleToc": {
-      "chapterList": ".list ul",
+      "chapterList": "main.container div.text",
       "chapterName": "text",
       "chapterUrl": "href"
     },
     "ruleContent": {
-      "content": ".list ul@textNodes"
+      "content": "article.article@textNodes##广告语.+|请勿转载"
     }
   }
 ]
