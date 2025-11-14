@@ -1561,17 +1561,31 @@
     "weight": 0
   },
   {
-    "bookSourceName": "www.biquge123.uk（AI生成）",
-    "bookSourceUrl": "https://www.biquge123.uk",
+    "bookSourceName": "www.sudugu.org（AI生成）",
+    "bookSourceUrl": "https://www.sudugu.org",
     "enabled": true,
     "bookSourceType": 0,
     "ruleToc": {
-      "chapterList": "main.container div.text",
+      "chapterList": "#list ul li a",
       "chapterName": "text",
       "chapterUrl": "href"
     },
     "ruleContent": {
-      "content": "article.article@textNodes##广告语.+|请勿转载"
+      "content": ".con@textNodes##下一页"
+    }
+  },
+  {
+    "bookSourceName": "www.cuoceng.com（AI生成）",
+    "bookSourceUrl": "https://www.cuoceng.com",
+    "enabled": true,
+    "bookSourceType": 0,
+    "ruleToc": {
+      "chapterList": ".dirList ul li a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": "#readcontent .txtwrap .readBox@textNodes##清理广告、脚本和无关元素"
     }
   }
 ]
